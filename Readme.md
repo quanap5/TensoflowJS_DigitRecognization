@@ -1,4 +1,15 @@
-This app enables user to draw a number of their choice and then uses TensorflowJS model to predict the number.
-The model was trained in Keras and then converted into a tensorflowjs model.
+# TensorflowJS Demonstration
 
-Try it on := https://tensorapp-a7699.firebaseapp.com
+
+
+----
+## Requirement
+
+- node.js npm
+- cordova ionic
+- tensorflowJS
+
+----
+## Running
+
+- ionic serve
