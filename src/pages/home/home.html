@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar color="secondary">
+    <ion-title>
+      Demo Machine-learning[Digit Recognizer]
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  
+  <!-- <ion-input [(ngModel)]="InputTaken"></ion-input>
+  <button ion-button (click)="linearModelPredict(InputTaken)">Predict</button>
+
+  <h1>The predicted value is {{prediction}}</h1> -->
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-sm">
+      <h3>Drawing</h3>
+        <div class="drawbox">
+            <canvas drawable (newImage)="predict($event)" ></canvas><br>
+        </div>
+        <div> <button ion-button class="btn btn-sm btn-warning" (click)="eraseButton()">RESET</button></div>
+     
+    </div>    
+
+    <div class="col-sm">
+        <h3>Result of Prediction</h3>
+        <chart [data]="prediction"></chart>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+
+
+</ion-content>
+

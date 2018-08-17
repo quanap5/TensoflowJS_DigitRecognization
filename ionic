@@ -1,0 +1,18 @@
+Installing "cordova-plugin-statusbar" for android
+ANDROID_HOME=C:\Users\user\AppData\Local\Android\sdk
+JAVA_HOME=C:\Program Files\Java\jdk1.8.0_112
+Subproject Path: CordovaLib
+The Task.leftShift(Closure) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use Task.doLast(Action) instead.
+	at build_b0xxotwam3a0or958obumgfiz.run(D:\jslab_Project\Digit-Recognizer-master\Digit-Recognizer-master\platforms\android\build.gradle:137)
+The JavaCompile.setDependencyCacheDir() method has been deprecated and is scheduled to be removed in Gradle 4.0.
+Incremental java compilation is an incubating feature.
+The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
+:clean
+:CordovaLib:clean
+
+BUILD SUCCESSFUL
+
+Total time: 2.89 secs
+Installing "cordova-plugin-statusbar" for browser
+Adding cordova-plugin-statusbar to package.json
+Saved plugin info for "cordova-plugin-statusbar" to config.xml
